@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleDoubleDifferentiate", "DoubleDoubleDifferentiate\DoubleDoubleDifferentiate.csproj", "{5C5BD5F6-C6D3-457A-8AA5-934837B38417}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleDoubleDifferentiateTest", "DoubleDoubleDifferentiateTest\DoubleDoubleDifferentiateTest.csproj", "{249EAD8D-0EAA-468A-B5ED-1A50F8D685E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C5BD5F6-C6D3-457A-8AA5-934837B38417} = {5C5BD5F6-C6D3-457A-8AA5-934837B38417}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C5BD5F6-C6D3-457A-8AA5-934837B38417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5BD5F6-C6D3-457A-8AA5-934837B38417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5BD5F6-C6D3-457A-8AA5-934837B38417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5BD5F6-C6D3-457A-8AA5-934837B38417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249EAD8D-0EAA-468A-B5ED-1A50F8D685E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249EAD8D-0EAA-468A-B5ED-1A50F8D685E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249EAD8D-0EAA-468A-B5ED-1A50F8D685E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249EAD8D-0EAA-468A-B5ED-1A50F8D685E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAF42353-4DCC-4D6F-9844-C923489E5A5C}
+	EndGlobalSection
+EndGlobal
