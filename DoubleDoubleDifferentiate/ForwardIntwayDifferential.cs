@@ -1,5 +1,4 @@
 ﻿using DoubleDouble;
-using System;
 using System.Collections.ObjectModel;
 
 namespace DoubleDoubleDifferentiate {

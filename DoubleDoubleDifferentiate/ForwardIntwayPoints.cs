@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using DoubleDouble;
 using System.Collections.ObjectModel;
-using DoubleDouble;
 
 namespace DoubleDoubleDifferentiate {
     public static class ForwardIntwayPoints {

@@ -1,5 +1,4 @@
 ﻿using DoubleDouble;
-using System;
 using System.Collections.ObjectModel;
 
 namespace DoubleDoubleDifferentiate {
@@ -24,7 +23,7 @@ namespace DoubleDoubleDifferentiate {
                     s += w * (f(x + i * h) - f(x - i * h));
                 }
             }
-            else{
+            else {
                 s += ws[0] * f(x);
 
                 for (int i = 1; i < ws.Count; i++) {

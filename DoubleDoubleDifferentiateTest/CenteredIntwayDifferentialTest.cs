@@ -1,6 +1,6 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DoubleDoubleDifferentiate;
 using DoubleDouble;
+using DoubleDoubleDifferentiate;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
 namespace DoubleDoubleDifferentiateTest {
