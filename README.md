@@ -2,7 +2,7 @@
  Double-Double Numerical Differentiation Implements 
 
 ## Requirement
-.NET 7.0
+.NET 8.0
 
 ## Install
 
