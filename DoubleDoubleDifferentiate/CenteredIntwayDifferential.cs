@@ -7,7 +7,7 @@ namespace DoubleDoubleDifferentiate {
             Func<ddouble, ddouble> f, ddouble x, int derivative,
             ddouble h, bool taylor_scale = true) {
 
-            return Differentiate(f, x, new int[] { derivative }, h, taylor_scale).First().value;
+            return Differentiate(f, x, [derivative], h, taylor_scale).First().value;
         }
 
         public static IEnumerable<(int derivative, ddouble value)> Differentiate(

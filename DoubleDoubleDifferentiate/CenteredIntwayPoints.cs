@@ -8,10 +8,10 @@ namespace DoubleDoubleDifferentiate {
         public static readonly ReadOnlyDictionary<int, ReadOnlyCollection<ddouble>> Table =
             new(new Dictionary<int, ReadOnlyCollection<ddouble>>(){
 
-            { 0, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            { 0, new ReadOnlyCollection<ddouble>([
                 1,
-            }) },
-            { 1, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 1, new ReadOnlyCollection<ddouble>([
                 ddouble.Zero,
                 (+1, -1, 0xF0F0F0F0F0F0F0F0uL, 0xF0F0F0F0F0F0F0F0uL),
                 (-1, -2, 0xC8C8C8C8C8C8C8C8uL, 0xC8C8C8C8C8C8C8C8uL),
@@ -29,8 +29,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -25, 0xFD26D96A8EA8C60BuL, 0x84A292B30911EBF0uL),
                 (+1, -29, 0xF3E5910E066A72D4uL, 0x98027A9E2D12EB05uL),
                 (-1, -34, 0xE4A737FD2603CBA7uL, 0x4E8252F44A41BC55uL),
-            }) },
-            { 2, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 2, new ReadOnlyCollection<ddouble>([
                 (-1, 1, 0xCACBDE0156AE26F1uL, 0x5C72A132F117E9B3uL),
                 (+1, 0, 0xF0F0F0F0F0F0F0F0uL, 0xF0F0F0F0F0F0F0F0uL),
                 (-1, -2, 0xC8C8C8C8C8C8C8C8uL, 0xC8C8C8C8C8C8C8C8uL),
@@ -48,8 +48,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -27, 0x90A87C3CE3CE2806uL, 0x94EF2F41BC0A3DAEuL),
                 (+1, -31, 0x821409188BF48182uL, 0x733485A9B1A3B08BuL),
                 (-1, -37, 0xE4A737FD2603CBA7uL, 0x4E8252F44A41BC55uL),
-            }) },
-            { 3, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 3, new ReadOnlyCollection<ddouble>([
                 ddouble.Zero,
                 (-1, 1, 0xD52D8B9A618404EDuL, 0x1C8609FC41AFACBDuL),
                 (+1, 1, 0xCC49125BF32A1D05uL, 0x8545E941CAD0B485uL),
@@ -68,8 +68,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -23, 0xA37BEC2EA7193F1AuL, 0x6C4D1F1EFAB6EBF9uL),
                 (+1, -27, 0x94AC2283FC812947uL, 0xD70F035E65249079uL),
                 (-1, -32, 0x83BBA980FBE642D7uL, 0x9845B52106BA0F8CuL),
-            }) },
-            { 4, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 4, new ReadOnlyCollection<ddouble>([
                 (+1, 4, 0x8A21A5AF3E88A361uL, 0xF2133C567AD81B86uL),
                 (-1, 3, 0xD52D8B9A618404EDuL, 0x1C8609FC41AFACBDuL),
                 (+1, 2, 0xCC49125BF32A1D05uL, 0x8545E941CAD0B485uL),
@@ -88,8 +88,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -25, 0xAE620CFE901AEDFAuL, 0x0D1F10210B6DC881uL),
                 (+1, -29, 0x94AC2283FC812947uL, 0xD70F035E65249079uL),
                 (-1, -35, 0xF7F7D5A77FCF8CE1uL, 0x1EA154F2DF7C5981uL),
-            }) },
-            { 5, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 5, new ReadOnlyCollection<ddouble>([
                 ddouble.Zero,
                 (+1, 3, 0xF2B95A277651F334uL, 0x3E4DEEBF435B10E0uL),
                 (-1, 4, 0x9666E8CFBF2CF6C6uL, 0xC8401528588B90B2uL),
@@ -109,8 +109,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -22, 0xC8BC6B47C2E0E630uL, 0x4F1A469975F072B0uL),
                 (+1, -26, 0xACE771614C2665B4uL, 0xF31E4AC99D696290uL),
                 (-1, -31, 0x91460C009A235F34uL, 0x5CD48545208D589DuL),
-            }) },
-            { 6, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 6, new ReadOnlyCollection<ddouble>([
                 (-1, 6, 0xD6FEAC85A19C4B9AuL, 0xDED12D651B718AD7uL),
                 (+1, 6, 0xB60B039D98BD7667uL, 0x2EBA730F72844CA8uL),
                 (-1, 5, 0xE19A5D379EC3722AuL, 0x2C601FBC84D1590BuL),
@@ -130,8 +130,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -23, 0x968D5075D228ACA4uL, 0x3B53B4F318745604uL),
                 (+1, -28, 0xF4199101D4EAE9F0uL, 0x6648E20D92EF21BCuL),
                 (-1, -33, 0xC1B2BAAB782F299BuL, 0x2670B1B180BC7627uL),
-            }) },
-            { 7, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 7, new ReadOnlyCollection<ddouble>([
                 ddouble.Zero,
                 (-1, 6, 0x9B6A152978BAB9F3uL, 0x9C3C48743B48291AuL),
                 (+1, 6, 0xD9EE155B838DCFAFuL, 0x93C589D63F62097AuL),
@@ -152,8 +152,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -21, 0xEB8A60298A45912BuL, 0x1641BDBF8145FC5BuL),
                 (+1, -25, 0xC0BD997861765483uL, 0x67CB43F026642C9DuL),
                 (-1, -30, 0x9A0007B15A87F19CuL, 0xBE821F037B485863uL),
-            }) },
-            { 8, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 8, new ReadOnlyCollection<ddouble>([
                 (+1, 9, 0xAF898DDB6E94E418uL, 0x2B85155CFBA997A4uL),
                 (-1, 9, 0x9B6A152978BAB9F3uL, 0x9C3C48743B48291AuL),
                 (+1, 8, 0xD9EE155B838DCFAFuL, 0x93C589D63F62097AuL),
@@ -174,8 +174,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -22, 0xDDAF699082235B73uL, 0xD8B6583BC4F69328uL),
                 (+1, -26, 0xAB533315ABF76791uL, 0x3FD11FF1E93C996FuL),
                 (-1, -31, 0x81AF2EE6314A0ED4uL, 0xD652A0DA82C3A8BFuL),
-            }) },
-            { 9, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 9, new ReadOnlyCollection<ddouble>([
                 ddouble.Zero,
                 (+1, 8, 0xD3C09534EA8E330FuL, 0xA4AC560DD3B61F2BuL),
                 (-1, 9, 0x9F5F9F7EB14C960BuL, 0x1641931ED408FFB2uL),
@@ -197,8 +197,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -19, 0x84A53E879960BC37uL, 0x4C97A2B0B790F4CBuL),
                 (+1, -24, 0xCEC7525C67D052A4uL, 0x86F5EB7939814F06uL),
                 (-1, -29, 0x9D84379B3213BBCFuL, 0x66367DCFF1FDDD6AuL),
-            }) },
-            { 10, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 10, new ReadOnlyCollection<ddouble>([
                 (-1, 12, 0x91C18496439F05FAuL, 0x0C2B5274DC4530D1uL),
                 (+1, 12, 0x84585D411298DFE9uL, 0xC6EBB5C8A451D37BuL),
                 (-1, 11, 0xC737875E5D9FBB8DuL, 0xDBD1F7E6890B3F9EuL),
@@ -220,8 +220,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -20, 0x9362457A38A45F59uL, 0xE353268B76A10FFEuL),
                 (+1, -25, 0xD9A9642B5FCDD041uL, 0x65A48C13D0BE0257uL),
                 (-1, -30, 0x9D84379B3213BBCFuL, 0x66367DCFF1FDDD6AuL),
-            }) },
-            { 11, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 11, new ReadOnlyCollection<ddouble>([
                 ddouble.Zero,
                 (-1, 11, 0x9547DCBBF2E83F6BuL, 0xE74C2457F2A4D4A0uL),
                 (+1, 11, 0xEB1F3BC9D5C88DA1uL, 0x9A45F0E39060D4B6uL),
@@ -244,8 +244,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -18, 0x8FF3BAC8B2D5D780uL, 0xDE31E5F908D30DC9uL),
                 (+1, -23, 0xD640E4384BED56D1uL, 0x1AF55B97BDE20324uL),
                 (-1, -28, 0x9BF56067CF69F559uL, 0xC1CFF5365FF1A288uL),
-            }) },
-            { 12, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 12, new ReadOnlyCollection<ddouble>([
                 (+1, 14, 0xF2B9104ED9FA91EBuL, 0x09EE43539119942AuL),
                 (-1, 14, 0xDFEBCB19EC5C5F21uL, 0xDAF23683EBF73EF0uL),
                 (+1, 14, 0xB0576CD760566A39uL, 0x33B474AAAC489F89uL),
@@ -268,8 +268,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -19, 0xB5D58D9F32BD461CuL, 0x0B318E480B258AADuL),
                 (+1, -23, 0x808D55BB60C19A7DuL, 0x769336F4A5213515uL),
                 (-1, -29, 0xB23D0076A3E6CF42uL, 0x02123CD06DA6709CuL),
-            }) },
-            { 13, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 13, new ReadOnlyCollection<ddouble>([
                 ddouble.Zero,
                 (+1, 13, 0xD67721764D0C2A70uL, 0x34CEBE32BD497AD9uL),
                 (-1, 14, 0xAE3EDEFD5EF653E5uL, 0x48B9D954079E3BDCuL),
@@ -293,8 +293,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -17, 0x9705A98D448564A5uL, 0x3FCA87D2908B2C6DuL),
                 (+1, -22, 0xD70FE6AF70181989uL, 0xEAF025C7341FAA17uL),
                 (-1, -27, 0x95E5D275F5603FC7uL, 0xD57C1083520A7109uL),
-            }) },
-            { 14, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 14, new ReadOnlyCollection<ddouble>([
                 (-1, 17, 0xC939DA2C547B6716uL, 0xA3CE89502BBAF35AuL),
                 (+1, 17, 0xBBA83D47836AA522uL, 0x2E34E66C65A04B7EuL),
                 (-1, 17, 0x9877031DB3178968uL, 0x9FA29E2986AA7461uL),
@@ -318,8 +318,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -18, 0xD36E53C5C65459B4uL, 0x261B8AF397293E33uL),
                 (+1, -22, 0x8F5FEF1FA0101106uL, 0x9CA0192F78151C0FuL),
                 (-1, -28, 0xBEC768F3384BF415uL, 0x9B58150439DEBE68uL),
-            }) },
-            { 15, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 15, new ReadOnlyCollection<ddouble>([
                 ddouble.Zero,
                 (-1, 16, 0x9B881219165C79C9uL, 0x7B3EEB0D0075FB9BuL),
                 (+1, 17, 0x8144862CD728CBDEuL, 0x8536B57D3C3340C4uL),
@@ -344,8 +344,8 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -16, 0x999ACF3A19D61572uL, 0x55686065AC9E3FFAuL),
                 (+1, -21, 0xD1AFA8F437B3FA11uL, 0x30846FFC0DF6665FuL),
                 (-1, -26, 0x8C33E5F791F7C8F4uL, 0x87201E8D4C853AC0uL),
-            }) },
-            { 16, new ReadOnlyCollection<ddouble>(new ddouble[]{
+            ]) },
+            { 16, new ReadOnlyCollection<ddouble>([
                 (+1, 20, 0xA57B0E413D2A4187uL, 0xA864384927F41257uL),
                 (-1, 20, 0x9B881219165C79C9uL, 0x7B3EEB0D0075FB9BuL),
                 (+1, 20, 0x8144862CD728CBDEuL, 0x8536B57D3C3340C4uL),
@@ -370,7 +370,7 @@ namespace DoubleDoubleDifferentiate {
                 (-1, -17, 0xEA1078BA0EFD147DuL, 0x75F462210709860FuL),
                 (+1, -21, 0x987FC0B19CDFFBAFuL, 0x691A7FFD216D61BAuL),
                 (-1, -27, 0xC3108DDE02BCEB11uL, 0x6E166D4A27AE3B7BuL),
-            }) }
+            ]) }
         });
     }
 }

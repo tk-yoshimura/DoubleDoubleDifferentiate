@@ -13,7 +13,7 @@ namespace DoubleDoubleDifferentiateTest {
 
             for (int exponent = -32; exponent <= -16; exponent++) {
                 ddouble h = ddouble.Ldexp(1, exponent);
-                ddouble value = ddouble.PI + ddouble.Square(exponent + 24) * 1e-20;
+                ddouble value = ddouble.Pi + ddouble.Square(exponent + 24) * 1e-20;
 
                 values.Add((h, value));
 
